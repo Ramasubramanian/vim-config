@@ -49,3 +49,5 @@ map <leader>jd :JavaDocComment<CR>
 set smartindent
 set ai "Auto indent
 
+" Open shell from within vi
+map <leader>bash :ConqueTerm bash<CR>
