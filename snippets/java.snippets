@@ -75,3 +75,17 @@ snippet cos
 	static public final String ${1:var} = "${2}";${3}
 snippet as
 	assert ${1:test} : "${2:Failure message}";${3}
+snippet try
+	try {
+			${1:/* code */}
+	} catch (final ${2:Exception} ${3:e}){
+
+	}
+snippet tryf
+	try {
+			${1:/* code */}
+	} catch (final ${2:Exception} ${3:e}){
+
+	} finally {
+
+	}
