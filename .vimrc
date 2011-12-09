@@ -19,6 +19,7 @@ set shiftwidth=2
 set tabstop=4
 set smarttab
 set smartindent
+set ai "Auto indent
 
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vim/vimrc
@@ -51,9 +52,6 @@ map <leader>cli :JavaImportClean<CR>
 map <leader>jc :JavaConstructor<CR>
 map <leader>jh :JavaHierarchy<CR>
 map <leader>jd :JavaDocComment<CR>
-
-set smartindent
-set ai "Auto indent
 
 " Open shell from within vi
 map <leader>bash :ConqueTerm bash<CR>
