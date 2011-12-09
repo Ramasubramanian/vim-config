@@ -14,6 +14,12 @@ Bundle 'bzx/vim-theme-pack'
 
 " tab and other settings
 set tabstop=4
+set expandtab
+set shiftwidth=2
+set tabstop=4
+set smarttab
+set smartindent
+
 " When vimrc is edited, reload it
 autocmd! bufwritepost vimrc source ~/.vim/vimrc
 
